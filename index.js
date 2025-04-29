@@ -522,11 +522,6 @@ var generatePgSchema = (options) => {
     })
   }
 
-  fs.writeFileSync(
-    path.join(__dirname, "drizzle-schema.json"),
-    JSON.stringify(enums, null, 2)
-  )
-
   const pgEnums = [];
   for (const schemaEnum of enums) {
     if (!schemaEnum.values.length)

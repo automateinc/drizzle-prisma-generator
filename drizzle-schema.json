@@ -1,0 +1,1056 @@
+[
+  {
+    "name": "Gender",
+    "values": [
+      {
+        "name": "MALE",
+        "dbName": "Male"
+      },
+      {
+        "name": "FEMALE",
+        "dbName": "Female"
+      }
+    ],
+    "dbName": null
+  },
+  {
+    "name": "ContractAllowanceType",
+    "values": [
+      {
+        "name": "BASE_PERCENTAGE",
+        "dbName": "Base Percentage"
+      },
+      {
+        "name": "FIXED",
+        "dbName": "Fixed"
+      },
+      {
+        "name": "BASE_PERCENTAGE_TIMES_DAYS_OFF",
+        "dbName": "Base Percentage Times Days Off"
+      },
+      {
+        "name": "BASE_PERCENTAGE_TIMES_DAILY_HOURS",
+        "dbName": "Base Percentage Times Daily Hours"
+      },
+      {
+        "name": "RAMADAN",
+        "dbName": "Ramadan"
+      }
+    ],
+    "dbName": "AllowanceType"
+  },
+  {
+    "name": "ContractDeductionType",
+    "values": [
+      {
+        "name": "PERCENTAGE",
+        "dbName": "Percentage"
+      },
+      {
+        "name": "FIXED",
+        "dbName": "Fixed"
+      }
+    ],
+    "dbName": "DeductionType"
+  },
+  {
+    "name": "ContractPaymentType",
+    "values": [
+      {
+        "name": "TRANSFER",
+        "dbName": "Transfer"
+      },
+      {
+        "name": "CASH",
+        "dbName": "Cash"
+      },
+      {
+        "name": "CHECK",
+        "dbName": "Check"
+      },
+      {
+        "name": "UNPAID",
+        "dbName": "Unpaid"
+      },
+      {
+        "name": "FORSA",
+        "dbName": "Forsa"
+      },
+      {
+        "name": "OTHER",
+        "dbName": "Other"
+      }
+    ],
+    "dbName": "PaymentType"
+  },
+  {
+    "name": "ContractType",
+    "values": [
+      {
+        "name": "PART_TIME",
+        "dbName": "Part Time"
+      },
+      {
+        "name": "FULL_TIME",
+        "dbName": "Full Time"
+      },
+      {
+        "name": "FREELANCE",
+        "dbName": "Freelance"
+      }
+    ],
+    "dbName": "Type"
+  },
+  {
+    "name": "LoanInstallmentStatus",
+    "values": [
+      {
+        "name": "PENDING",
+        "dbName": "Pending"
+      },
+      {
+        "name": "PAID",
+        "dbName": "Paid"
+      },
+      {
+        "name": "OVERDUE",
+        "dbName": "Overdue"
+      },
+      {
+        "name": "CANCELLED",
+        "dbName": "Cancelled"
+      }
+    ],
+    "dbName": "status"
+  },
+  {
+    "name": "RequestActionOperation",
+    "values": [
+      {
+        "name": "HTTP",
+        "dbName": null
+      }
+    ],
+    "dbName": "ActionOperation"
+  },
+  {
+    "name": "RequestActionType",
+    "values": [
+      {
+        "name": "VERIFICATION",
+        "dbName": "Verification"
+      },
+      {
+        "name": "APPROVAL",
+        "dbName": "Approval"
+      },
+      {
+        "name": "REJECTION",
+        "dbName": "Rejection"
+      },
+      {
+        "name": "CREATION",
+        "dbName": "Creation"
+      }
+    ],
+    "dbName": "ActionType"
+  },
+  {
+    "name": "RequestActionExecutionStatus",
+    "values": [
+      {
+        "name": "ON_HOLD",
+        "dbName": "On Hold"
+      },
+      {
+        "name": "COMPLETED",
+        "dbName": "Completed"
+      },
+      {
+        "name": "PENDING",
+        "dbName": "Pending"
+      },
+      {
+        "name": "FAILED",
+        "dbName": "Failed"
+      },
+      {
+        "name": "SKIPPED",
+        "dbName": "Skipped"
+      },
+      {
+        "name": "PROCESSING",
+        "dbName": "Processing"
+      }
+    ],
+    "dbName": "ActionExecutionStatus"
+  },
+  {
+    "name": "RequestVerificationStatus",
+    "values": [
+      {
+        "name": "PENDING",
+        "dbName": "Pending"
+      },
+      {
+        "name": "APPROVED",
+        "dbName": "Approved"
+      },
+      {
+        "name": "REJECTED",
+        "dbName": "Rejected"
+      }
+    ],
+    "dbName": "VerificationStatus"
+  },
+  {
+    "name": "RequestValueType",
+    "values": [
+      {
+        "name": "STRING",
+        "dbName": "String"
+      },
+      {
+        "name": "NUMBER",
+        "dbName": "Number"
+      },
+      {
+        "name": "BOOLEAN",
+        "dbName": "Boolean"
+      },
+      {
+        "name": "DATE",
+        "dbName": "Date"
+      },
+      {
+        "name": "DATETIME",
+        "dbName": "DateTime"
+      },
+      {
+        "name": "TIME",
+        "dbName": "Time"
+      },
+      {
+        "name": "UPLOAD",
+        "dbName": "Upload"
+      },
+      {
+        "name": "RELATION",
+        "dbName": "Relation"
+      },
+      {
+        "name": "CONTRACT",
+        "dbName": "Contract"
+      },
+      {
+        "name": "ROLE",
+        "dbName": "Role"
+      },
+      {
+        "name": "SINGLE_SELECT",
+        "dbName": "SingleSelect"
+      },
+      {
+        "name": "SIGNATURE",
+        "dbName": "Signature"
+      },
+      {
+        "name": "JSON",
+        "dbName": "Json"
+      },
+      {
+        "name": "EMPTY",
+        "dbName": "Empty"
+      }
+    ],
+    "dbName": "ValueType"
+  },
+  {
+    "name": "RecruitmentStatus",
+    "values": [
+      {
+        "name": "PENDING",
+        "dbName": "Pending"
+      },
+      {
+        "name": "VERIFIED",
+        "dbName": "Verified"
+      },
+      {
+        "name": "DRAFT",
+        "dbName": "Draft"
+      },
+      {
+        "name": "CHANGES_NEEDED",
+        "dbName": "Changes Needed"
+      },
+      {
+        "name": "RECRUITED",
+        "dbName": "Recruited"
+      },
+      {
+        "name": "REJECTED",
+        "dbName": "Rejected"
+      }
+    ],
+    "dbName": "Status"
+  },
+  {
+    "name": "ConfigType",
+    "values": [
+      {
+        "name": "DEFAULT",
+        "dbName": "Default"
+      },
+      {
+        "name": "TEAM",
+        "dbName": "Team"
+      },
+      {
+        "name": "REGION",
+        "dbName": "Region"
+      },
+      {
+        "name": "COMPANY",
+        "dbName": "Company"
+      }
+    ],
+    "dbName": null
+  },
+  {
+    "name": "ConfigValueType",
+    "values": [
+      {
+        "name": "STRING",
+        "dbName": "String"
+      },
+      {
+        "name": "NUMBER",
+        "dbName": "Number"
+      },
+      {
+        "name": "BOOLEAN",
+        "dbName": "Boolean"
+      },
+      {
+        "name": "DATE",
+        "dbName": "Date"
+      },
+      {
+        "name": "DATETIME",
+        "dbName": "DateTime"
+      },
+      {
+        "name": "TIME",
+        "dbName": "Time"
+      },
+      {
+        "name": "RELATION",
+        "dbName": "Relation"
+      },
+      {
+        "name": "JSON",
+        "dbName": "Json"
+      }
+    ],
+    "dbName": null
+  },
+  {
+    "name": "EmployeeEventType",
+    "values": [
+      {
+        "name": "UPDATE",
+        "dbName": "Update"
+      },
+      {
+        "name": "REQUEST",
+        "dbName": "Request"
+      },
+      {
+        "name": "RECRUIT",
+        "dbName": "Recruit"
+      }
+    ],
+    "dbName": null
+  },
+  {
+    "name": "EmployeeFieldType",
+    "values": [
+      {
+        "name": "METADATA",
+        "dbName": "Metadata"
+      },
+      {
+        "name": "REQUEST",
+        "dbName": "Request"
+      },
+      {
+        "name": "RECRUITMENT",
+        "dbName": "Recruitment"
+      }
+    ],
+    "dbName": null
+  },
+  {
+    "name": "ContactType",
+    "values": [
+      {
+        "name": "EMAIL",
+        "dbName": "Email"
+      },
+      {
+        "name": "PHONE",
+        "dbName": "Phone"
+      }
+    ],
+    "dbName": null
+  },
+  {
+    "name": "RestrictionType",
+    "values": [
+      {
+        "name": "EMPLOYEE",
+        "dbName": "Employee"
+      },
+      {
+        "name": "CONTRACT",
+        "dbName": "Contract"
+      },
+      {
+        "name": "ROLE",
+        "dbName": "Role"
+      },
+      {
+        "name": "COMPANY",
+        "dbName": "Company"
+      }
+    ],
+    "dbName": null
+  },
+  {
+    "name": "RestrictionOperation",
+    "values": [
+      {
+        "name": "EQUALS",
+        "dbName": "Equals"
+      },
+      {
+        "name": "NOT_EQUALS",
+        "dbName": "Not Equals"
+      },
+      {
+        "name": "CONTAINS",
+        "dbName": "Contains"
+      },
+      {
+        "name": "NOT_CONTAINS",
+        "dbName": "Not Contains"
+      },
+      {
+        "name": "EXISTS",
+        "dbName": "Exists"
+      },
+      {
+        "name": "NOT_EXISTS",
+        "dbName": "Not Exists"
+      }
+    ],
+    "dbName": null
+  },
+  {
+    "name": "PositionVersionStatus",
+    "values": [
+      {
+        "name": "UNVERIFIED",
+        "dbName": "Unverified"
+      },
+      {
+        "name": "PENDING_VERIFICATION",
+        "dbName": "Pending Verification"
+      },
+      {
+        "name": "REJECTED",
+        "dbName": "Rejected"
+      },
+      {
+        "name": "VERIFIED",
+        "dbName": "Verified"
+      }
+    ],
+    "dbName": null
+  },
+  {
+    "name": "ShiftClass",
+    "values": [
+      {
+        "name": "MAIN",
+        "dbName": "Main"
+      },
+      {
+        "name": "OVERTIME",
+        "dbName": "Overtime"
+      }
+    ],
+    "dbName": null
+  },
+  {
+    "name": "DayOfWeek",
+    "values": [
+      {
+        "name": "SUNDAY",
+        "dbName": "Sunday"
+      },
+      {
+        "name": "MONDAY",
+        "dbName": "Monday"
+      },
+      {
+        "name": "TUESDAY",
+        "dbName": "Tuesday"
+      },
+      {
+        "name": "WEDNESDAY",
+        "dbName": "Wednesday"
+      },
+      {
+        "name": "THURSDAY",
+        "dbName": "Thursday"
+      },
+      {
+        "name": "FRIDAY",
+        "dbName": "Friday"
+      },
+      {
+        "name": "SATURDAY",
+        "dbName": "Saturday"
+      }
+    ],
+    "dbName": null
+  },
+  {
+    "name": "ScheduleDraftStatus",
+    "values": [
+      {
+        "name": "DRAFT",
+        "dbName": "Draft"
+      },
+      {
+        "name": "PENDING",
+        "dbName": "Pending"
+      },
+      {
+        "name": "REJECTED",
+        "dbName": "Rejected"
+      },
+      {
+        "name": "ACCEPTED",
+        "dbName": "Accepted"
+      }
+    ],
+    "dbName": null
+  },
+  {
+    "name": "NFCTagType",
+    "values": [
+      {
+        "name": "SITE_INFORMATION",
+        "dbName": "Site Information"
+      },
+      {
+        "name": "EMPLOYEE",
+        "dbName": "Employee"
+      },
+      {
+        "name": "PATROLLING",
+        "dbName": "Patrolling"
+      }
+    ],
+    "dbName": null
+  },
+  {
+    "name": "DispatchStatus",
+    "values": [
+      {
+        "name": "PENDING",
+        "dbName": "Pending"
+      },
+      {
+        "name": "FLEET_CHECK",
+        "dbName": "Fleet Check"
+      },
+      {
+        "name": "FLEET_CHECK_COMPLETE",
+        "dbName": "Fleet Check Complete"
+      },
+      {
+        "name": "IN_PROGRESS",
+        "dbName": "In Progress"
+      },
+      {
+        "name": "COMPLETE",
+        "dbName": "Complete"
+      },
+      {
+        "name": "INTERRUPTED",
+        "dbName": "Interrupted"
+      },
+      {
+        "name": "NOT_SET",
+        "dbName": "Not Set"
+      }
+    ],
+    "dbName": null
+  },
+  {
+    "name": "DispatchAttendanceType",
+    "values": [
+      {
+        "name": "DROP_OFF",
+        "dbName": "Drop Off"
+      },
+      {
+        "name": "PICK_UP",
+        "dbName": "Pick Up"
+      },
+      {
+        "name": "INSPECTION",
+        "dbName": "Inspection"
+      }
+    ],
+    "dbName": null
+  },
+  {
+    "name": "AttendaceType",
+    "values": [
+      {
+        "name": "SCHEDULED",
+        "dbName": "Scheduled"
+      },
+      {
+        "name": "REROUTED",
+        "dbName": "Rerouted"
+      },
+      {
+        "name": "REPLACEMENT",
+        "dbName": "Replacement"
+      }
+    ],
+    "dbName": null
+  },
+  {
+    "name": "AttendanceEmployeeStatus",
+    "values": [
+      {
+        "name": "PRESENT",
+        "dbName": "Present"
+      },
+      {
+        "name": "ABSENT",
+        "dbName": "Absent"
+      },
+      {
+        "name": "REROUTED",
+        "dbName": "Rerouted"
+      }
+    ],
+    "dbName": null
+  },
+  {
+    "name": "AttendanceAbsenceType",
+    "values": [
+      {
+        "name": "DAY_OFF",
+        "dbName": "Day Off"
+      },
+      {
+        "name": "LEAVE",
+        "dbName": "Leave"
+      },
+      {
+        "name": "SICK_LEAVE",
+        "dbName": "Sick Leave"
+      },
+      {
+        "name": "NO_SHOW",
+        "dbName": "No Show"
+      }
+    ],
+    "dbName": null
+  },
+  {
+    "name": "OneTimePasswordType",
+    "values": [
+      {
+        "name": "DOCUMENT_SIGNING",
+        "dbName": "Document Signing"
+      },
+      {
+        "name": "EMAIL_VERIFICATION",
+        "dbName": "Email Verification"
+      },
+      {
+        "name": "PHONE_VERIFICATION",
+        "dbName": "Phone Verification"
+      },
+      {
+        "name": "PASSWORD_RESET",
+        "dbName": "Password Reset"
+      }
+    ],
+    "dbName": null
+  },
+  {
+    "name": "OneTimePasswordStatus",
+    "values": [
+      {
+        "name": "PENDING",
+        "dbName": "Pending"
+      },
+      {
+        "name": "VERIFIED",
+        "dbName": "Verified"
+      },
+      {
+        "name": "REJECTED",
+        "dbName": "Rejected"
+      }
+    ],
+    "dbName": null
+  },
+  {
+    "name": "OneTimePasswordMethod",
+    "values": [
+      {
+        "name": "EMAIL",
+        "dbName": "Email"
+      },
+      {
+        "name": "SMS",
+        "dbName": "SMS"
+      },
+      {
+        "name": "WHATSAPP",
+        "dbName": "WhatsApp"
+      }
+    ],
+    "dbName": null
+  },
+  {
+    "name": "BuildingStatus",
+    "values": [
+      {
+        "name": "ACTIVE",
+        "dbName": "Active"
+      },
+      {
+        "name": "INACTIVE",
+        "dbName": "Inactive"
+      }
+    ],
+    "dbName": null
+  },
+  {
+    "name": "BuildingLeaseStatus",
+    "values": [
+      {
+        "name": "ACTIVE",
+        "dbName": "Active"
+      },
+      {
+        "name": "INACTIVE",
+        "dbName": "Inactive"
+      }
+    ],
+    "dbName": "LeaseStatus"
+  },
+  {
+    "name": "BuildingLeasePaymentStatus",
+    "values": [
+      {
+        "name": "PENDING",
+        "dbName": "Pending"
+      },
+      {
+        "name": "PAID",
+        "dbName": "Paid"
+      },
+      {
+        "name": "OVERDUE",
+        "dbName": "Overdue"
+      },
+      {
+        "name": "CANCELLED",
+        "dbName": "Cancelled"
+      }
+    ],
+    "dbName": "LeasePaymentStatus"
+  },
+  {
+    "name": "UnitStatus",
+    "values": [
+      {
+        "name": "ACTIVE",
+        "dbName": "Active"
+      },
+      {
+        "name": "INACTIVE",
+        "dbName": "Inactive"
+      }
+    ],
+    "dbName": null
+  },
+  {
+    "name": "EmployeeMonthlyPayStatus",
+    "values": [
+      {
+        "name": "PENDING",
+        "dbName": "Pending"
+      },
+      {
+        "name": "HOLD",
+        "dbName": "Hold"
+      },
+      {
+        "name": "APPROVED",
+        "dbName": "Approved"
+      },
+      {
+        "name": "PROCESSED",
+        "dbName": "Processed"
+      },
+      {
+        "name": "ARCHIVED",
+        "dbName": "Archived"
+      }
+    ],
+    "dbName": null
+  },
+  {
+    "name": "PaymentStatus",
+    "values": [
+      {
+        "name": "PENDING",
+        "dbName": "Pending"
+      },
+      {
+        "name": "PAID",
+        "dbName": "Paid"
+      },
+      {
+        "name": "OVERDUE",
+        "dbName": "Overdue"
+      },
+      {
+        "name": "CANCELLED",
+        "dbName": "Cancelled"
+      }
+    ],
+    "dbName": null
+  },
+  {
+    "name": "VehicleContractStatus",
+    "values": [
+      {
+        "name": "ACTIVE",
+        "dbName": "Active"
+      },
+      {
+        "name": "INACTIVE",
+        "dbName": "Inactive"
+      }
+    ],
+    "dbName": null
+  },
+  {
+    "name": "PhoneLineContractStatus",
+    "values": [
+      {
+        "name": "ACTIVE",
+        "dbName": "Active"
+      },
+      {
+        "name": "INACTIVE",
+        "dbName": "Inactive"
+      }
+    ],
+    "dbName": null
+  },
+  {
+    "name": "PhoneLineStatus",
+    "values": [
+      {
+        "name": "ACTIVE",
+        "dbName": "Active"
+      },
+      {
+        "name": "TERMINATED",
+        "dbName": "Terminated"
+      }
+    ],
+    "dbName": null
+  },
+  {
+    "name": "AssetValueType",
+    "values": [
+      {
+        "name": "STRING",
+        "dbName": "String"
+      },
+      {
+        "name": "NUMBER",
+        "dbName": "Number"
+      },
+      {
+        "name": "BOOLEAN",
+        "dbName": "Boolean"
+      },
+      {
+        "name": "DATE",
+        "dbName": "Date"
+      },
+      {
+        "name": "DATETIME",
+        "dbName": "DateTime"
+      },
+      {
+        "name": "TIME",
+        "dbName": "Time"
+      },
+      {
+        "name": "UPLOAD",
+        "dbName": "Upload"
+      },
+      {
+        "name": "RELATION",
+        "dbName": "Relation"
+      },
+      {
+        "name": "CONTRACT",
+        "dbName": "Contract"
+      },
+      {
+        "name": "ROLE",
+        "dbName": "Role"
+      },
+      {
+        "name": "SINGLE_SELECT",
+        "dbName": "SingleSelect"
+      },
+      {
+        "name": "SIGNATURE",
+        "dbName": "Signature"
+      },
+      {
+        "name": "JSON",
+        "dbName": "Json"
+      },
+      {
+        "name": "EMPTY",
+        "dbName": "Empty"
+      }
+    ],
+    "dbName": null
+  },
+  {
+    "name": "ReportValueType",
+    "values": [
+      {
+        "name": "STRING",
+        "dbName": "String"
+      },
+      {
+        "name": "NUMBER",
+        "dbName": "Number"
+      },
+      {
+        "name": "BOOLEAN",
+        "dbName": "Boolean"
+      },
+      {
+        "name": "DATE",
+        "dbName": "Date"
+      },
+      {
+        "name": "DATETIME",
+        "dbName": "DateTime"
+      },
+      {
+        "name": "TIME",
+        "dbName": "Time"
+      },
+      {
+        "name": "UPLOAD",
+        "dbName": "Upload"
+      },
+      {
+        "name": "RELATION",
+        "dbName": "Relation"
+      },
+      {
+        "name": "CONTRACT",
+        "dbName": "Contract"
+      },
+      {
+        "name": "ROLE",
+        "dbName": "Role"
+      },
+      {
+        "name": "SINGLE_SELECT",
+        "dbName": "SingleSelect"
+      },
+      {
+        "name": "SIGNATURE",
+        "dbName": "Signature"
+      },
+      {
+        "name": "JSON",
+        "dbName": "Json"
+      },
+      {
+        "name": "EMPTY",
+        "dbName": "Empty"
+      }
+    ],
+    "dbName": null
+  },
+  {
+    "name": "CallLogDirection",
+    "values": [
+      {
+        "name": "INCOMING",
+        "dbName": "Incoming"
+      },
+      {
+        "name": "OUTGOING",
+        "dbName": "Outgoing"
+      }
+    ],
+    "dbName": null
+  },
+  {
+    "name": "CallStatus",
+    "values": [
+      {
+        "name": "MISSED",
+        "dbName": "Missed"
+      },
+      {
+        "name": "ANSWERED",
+        "dbName": "Answered"
+      },
+      {
+        "name": "REJECTED",
+        "dbName": "Rejected"
+      },
+      {
+        "name": "FAILED",
+        "dbName": "Failed"
+      },
+      {
+        "name": "NO_ANSWER",
+        "dbName": "No Answer"
+      }
+    ],
+    "dbName": null
+  }
+]
